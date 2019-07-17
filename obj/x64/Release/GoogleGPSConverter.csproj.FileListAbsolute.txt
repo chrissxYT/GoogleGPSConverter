@@ -1,9 +1,0 @@
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\bin\x64\Release\GoogleGPSConverter.exe.config
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\bin\x64\Release\GoogleGPSConverter.exe
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\bin\x64\Release\GoogleGPSConverter.pdb
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\bin\x64\Release\Newtonsoft.Json.dll
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\bin\x64\Release\Newtonsoft.Json.xml
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\obj\x64\Release\GoogleGPSConverter.csproj.CoreCompileInputs.cache
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\obj\x64\Release\GoogleGPSConverter.csproj.CopyComplete
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\obj\x64\Release\GoogleGPSConverter.exe
-C:\Users\chrissicx\source\repos\GoogleGPSConverter\obj\x64\Release\GoogleGPSConverter.pdb

@@ -54,9 +54,7 @@ namespace GoogleGPSConverter
                             else if (vn == "accuracy") l.accuracy = percent(r.ReadAsInt32().Value);
                         }
                         else if (r.TokenType == JsonToken.StartObject)
-                        {
                             while (r.Read() && r.TokenType != JsonToken.EndObject) ;
-                        }
                     }
                     if(l.valid()) locs.Add(l);
                 }
@@ -75,18 +73,11 @@ namespace GoogleGPSConverter
 
         static double percent(int i)
         {
-            if (i < 1e2)
-                return i;
-            else if (i < 1e3)
-                return i / 1e1;
-            else if (i < 1e4)
-                return i / 1e2;
-            else if (i < 1e5)
-                return i / 1e3;
-            else if (i < 1e6)
-                return i / 1e4;
-            else
-                return 0;
+            return i < 1e2 ? i :
+                   i < 1e3 ? i / 1e1 :
+                   i < 1e4 ? i / 1e2 :
+                   i < 1e5 ? i / 1e3 :
+                   i < 1e6 ? i / 1e4 : 0;
         }
     }
 }
